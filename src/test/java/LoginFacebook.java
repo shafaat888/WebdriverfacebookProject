@@ -23,6 +23,8 @@ public void facebookLogin() throws InterruptedException
 {
 	driver.findElement(By.xpath("//*[@id='email']")).sendKeys("shafiforu65@gmail.com");
 	Thread.sleep(3000);
+	driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("shafi_FORu65");
+	driver.findElement(By.xpath("//*[@id='u_0_3']")).click();
 	
 }
 @AfterTest
